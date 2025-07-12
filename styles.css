@@ -1,3 +1,127 @@
+/* Footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Large Logo */
+.footer-logo {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Subtitle */
+.footer-subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+/* Footer Links */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #007BFF;
+}
+
+
+
+
+
+
+.contact-section {
+    background-color: #e8f0fe;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contact-container {
+    background: white;
+    width: 70%;
+ max-width: 1140px;
+    padding: 60px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+   display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.contact-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.contact-left h2 {
+    font-size: 40px;
+    color:#4b407c;
+}
+.contact-right {
+    flex: 2;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4b407c;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    resize: vertical;
+}
+
+
+.contact-form textarea {
+    min-height: 100px;
+}
+.contact-btn {
+    padding: 12px 25px;
+    font-size: 20px;
+    background-color: rgb(81, 72, 104);
+    color: white;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #3feed1;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
 
 .users-section {
     background-color: #f0f0f0e3;
@@ -33,25 +157,21 @@
 
 .user-box {
     background: #aed7ee;
-    
     padding: 90px 80px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     transition: transform 0.3s ease;
 }
-
 .user-box h3 {
     font-size: 28px;
     color: #4b407c;
     margin-bottom: 10px;
     background-color: #f4f5f6;
 }
-
 .user-box p {
     font-size: 16px;
     color:#4b407c;
 }
-
 .user-box:hover {
     transform: translateY(-5px);
 }
@@ -67,9 +187,8 @@
 
 body, html {
     height: 100%;
-    font-family:monospace;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 
 .navbar {
     display: flex;
@@ -81,12 +200,10 @@ body, html {
     background-position: center;
     color: rgb(49, 106, 144);
 }
-
 .logo {
     font-size: 30px;
     font-weight: bold;
 }
-
 .signup-btn {
     padding: 10px 20px;
     font-size: 20px;
@@ -96,7 +213,6 @@ body, html {
     border-radius: 10px;
     cursor: pointer;
 }
-
 
 .banner {
     height: 80vh;
@@ -134,7 +250,6 @@ body, html {
     background-color: #f4f4f4;
     height: 100vh; 
 
-
 .action-container {
     display: flex;
     justify-content: center;
@@ -148,11 +263,11 @@ body, html {
     padding-left: 20px;
 }
 
-
 .action-left {
     flex: 1;
     padding-right: 20px;
 }
+
 
 .action-left h2 {
     font-size: 36px;
@@ -160,13 +275,11 @@ body, html {
     margin-bottom: 20px;
 
 }
-
 .action-left p {
     font-size: 18px;
     margin-bottom: 30px;
     color: #555;
 }
-
 .live-btn {
     padding: 12px 25px;
     font-size: 20px;
@@ -182,8 +295,6 @@ body, html {
     
 }
 
-
-
 .action-right {
     
     display: flex;
@@ -197,5 +308,5 @@ body, html {
     max-width: 450px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+      box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
