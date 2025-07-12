@@ -1,26 +1,23 @@
-/* Footer */
+
 .footer {
     background-color: #222;
-    color: #fff;
+    color:white;
     padding: 60px 20px;
     text-align: center;
 }
-
-/* Large Logo */
 .footer-logo {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 10px;
     font-weight: bold;
 }
 
-/* Subtitle */
+
 .footer-subtitle {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 30px;
-    color: #ccc;
+    color: #b7d7fa;
 }
 
-/* Footer Links */
 .footer-links {
     display: flex;
     justify-content: center;
@@ -29,14 +26,14 @@
 }
 
 .footer-links a {
-    color: #fff;
+    color:#b7d7fa;
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-    color: #007BFF;
+    color: #3eebf7;
 }
 
 
@@ -173,13 +170,13 @@
     color:#4b407c;
 }
 .user-box:hover {
-    transform: translateY(-5px);
+    transform: translateY(-30px);
 }
 
 
 
 
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -201,8 +198,8 @@ body, html {
     color: rgb(49, 106, 144);
 }
 .logo {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: bolder;
 }
 .signup-btn {
     padding: 10px 20px;
@@ -211,7 +208,13 @@ body, html {
     background-color: #4e5b89aa;
     color: whitesmoke;
     border-radius: 10px;
-    cursor: pointer;
+    transition: all 0.3s ease;
+    
+
+}
+.signup-btn:hover {
+    background-color: #3feed1;
+    transform: scale(1.2);
 }
 
 .banner {
@@ -239,8 +242,11 @@ body, html {
     color: black;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    transition: all 0.3s ease;
 }
+.focus-btn:hover {
+    background-color: #3feed1;
+    transform: scale(1.2);}
 
 .action-section {
     display: flex;
@@ -248,7 +254,7 @@ body, html {
     align-items: center;
     padding: 60px 0;
     background-color: #f4f4f4;
-    height: 100vh; 
+    height: 100vh; }
 
 .action-container {
     display: flex;
