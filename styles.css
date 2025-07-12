@@ -1,0 +1,72 @@
+/* style.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-image:url(images/background2.jpg.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(49, 106, 144);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.signup-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    background-color: #4e5b89aa;
+    color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Banner Styles */
+.banner {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(images/Abstract\ horizontal\ watercolor\ background_\ Neutral\ light\ colored\ empty\ space\ background\ illustration.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    color: rgb(76, 65, 138);
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.focus-btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #4c88a4aa;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body{
+    background-color: aqua;
+}
